@@ -1,0 +1,21 @@
+#root{
+  padding:12px;
+}
+
+#app {
+  height:calc(100vh - 24px);
+}
+
+@import url('../src/style/flex.css');
+
+
+.text-align-c {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.b{
+  display: block;
+}

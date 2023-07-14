@@ -1,0 +1,17 @@
+.page-tabs{ 
+  width:  100%;
+  .ant-tabs-nav{
+    margin-bottom: 0;
+  }
+  .ant-tabs-content , .ant-tabs-tabpane-active{
+    height: 100%;
+    max-height: calc(100vh - 160px);
+    overflow:auto;
+  }
+  .ant-tabs-tabpane-active {
+    border:1px solid #eee;
+    border-top-width: 0;
+    padding:10px 15px;
+    box-sizing: border-box;
+  }
+}

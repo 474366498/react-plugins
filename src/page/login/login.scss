@@ -1,0 +1,33 @@
+/* 栅格背景 https: //www.lmlphp.com/user/58199/article/item/665999/ */
+.login{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1190d6;
+  background-image:
+    linear-gradient(45deg,
+      rgba(0, 0, 0, .25) 25%,
+      transparent 0,
+      transparent 75%,
+      rgba(0, 0, 0, .25) 0),
+    linear-gradient(45deg,
+      rgba(0, 0, 0, .25) 25%,
+      transparent 0,
+      transparent 75%,
+      rgba(0, 0, 0, .25) 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+#login{
+  width:40vw;
+  min-width:360px;
+  max-width: 400px;
+  height: 40vh;
+  min-height: 360px;
+  max-height: 400px;
+  background-color: white;
+  padding: 36px ;
+}

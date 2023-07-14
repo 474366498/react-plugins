@@ -1,0 +1,57 @@
+
+#movie{
+  min-width: 880px;
+  height: 100%;
+  overflow:auto;
+  &.full{
+    position: fixed;
+    top:0;
+    justify-content: center;
+    left: 0;
+    width:100vw;
+    background-color: gray;
+  }
+}
+
+.movie{
+  min-width: 880px;
+  &-view{
+    position: relative;
+    &:hover .video-control{
+      display:flex ;
+    }
+    .video-control {
+      position: absolute;
+      bottom:5px;
+      left:0;
+      right:0;
+      padding:10px;
+      z-index: 100;
+      background-color: rgba(0,0,0,.25);
+      color:white;
+      display: none;
+      .movie-btn{
+        padding:0 10px;
+        font-size: 20px;
+      }
+      .volume {
+          position: relative;
+          .volume-control {
+            height: 100px;
+            display: inline-block;
+            position: absolute;
+            bottom: 26px;
+            left: 50%;
+            transform: translateX(-50%)
+          }
+      }
+    }
+  }
+  &-list{
+    width:180px;
+    .active{
+      color:skyblue;
+    }
+  }
+}
+

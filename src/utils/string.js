@@ -1,0 +1,1 @@
+// string common function

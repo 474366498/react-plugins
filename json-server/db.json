@@ -1,0 +1,1466 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" } ,
+  "menu" : {
+    "explain":"react plugins 路由信息" ,
+    "data" : [
+        {
+            "menuname" :"基础plugin" ,
+            "icon":"" ,
+            "menuid":"base~plugin" ,
+            "url":null ,
+            "menus":[
+                {
+                    "menuname":"前端埋点" ,
+                    "icon":"" , 
+                    "menuid":"buriedPoint" ,
+                    "menus":[] ,
+                    "url":"buriedPoint"
+                },
+                {
+                    "menuname":"webWorker" ,
+                    "icon":"" , 
+                    "menuid":"webWorker" ,
+                    "menus":[] ,
+                    "url":"webWorker"
+                },
+                {
+                    "menuname":"字符串加密" ,
+                    "icon":"" , 
+                    "menuid":"encrypt" ,
+                    "menus":[] ,
+                    "url":"encrypt"
+                },
+                {
+                    "menuname":"自定义antd icon" ,
+                    "icon":"" , 
+                    "menuid":"userIcon" ,
+                    "menus":[] ,
+                    "url":"userIcon"
+                }
+            ]
+        },
+        {
+            "menuname":"文件类plugin" ,
+            "icon":"" ,
+            "menuid":"file-plugin" ,
+            "url":null ,
+            "menus":[
+                {
+                    "menuname":"上传(node)" ,
+                    "icon":"" , 
+                    "menuid":"upload" ,
+                    "menus":[] ,
+                    "url":"upload"
+                },
+                {
+                    "menuname":"大文件(node)" ,
+                    "icon":"" , 
+                    "menuid":"bigFile" ,
+                    "menus":[] ,
+                    "url":"bigFile"
+                },
+                {
+                    "menuname":"下载(node)" ,
+                    "icon":"" , 
+                    "menuid":"download" ,
+                    "menus":[] ,
+                    "url":"download"
+                },
+                {
+                    "menuname":"文件预览" ,
+                    "icon":"" , 
+                    "menuid":"fileView" ,
+                    "menus":[] ,
+                    "url":"fileView"
+                },
+                {
+                    "menuname":"打印" ,
+                    "icon":"" , 
+                    "menuid":"filePrint" ,
+                    "menus":[] ,
+                    "url":"filePrint"
+                },
+                {
+                    "menuname":"图片编辑" ,
+                    "icon":"" , 
+                    "menuid":"imgEdit" ,
+                    "menus":[] ,
+                    "url":"imgEdit"
+                }
+            ]
+        },
+
+        {
+            "menuname":"音视频plugin" ,
+            "icon":"",
+            "menuid":"multimedia~plugin",
+            "url":null ,
+            "menus":[
+                {
+                    "menuname":"音视频播放",
+                    "icon":"" ,
+                    "menuid":"multimedia",
+                    "menus":[] ,
+                    "url":"multimedia"
+                },
+                {
+                    "menuname":"音乐播放器",
+                    "icon":"",
+                    "menuid":"useMusicPlayer" ,
+                    "menus":[] ,
+                    "url":"useMusicPlayer"
+                },
+                {
+                    "menuname":"视频播放器",
+                    "icon":"",
+                    "menuid":"moviePlayer" ,
+                    "menus":[] ,
+                    "url":"moviePlayer"
+                }
+            ]
+        },
+        {
+            "menuname":"富文本编辑器",
+            "icon":"",
+            "menuid":"editor",
+            "url":"" ,
+            "menus":[
+                {
+                    "menuname":"tinymceEditor" ,
+                    "icon":"",
+                    "menuid":"tinymceEditor",
+                    "menus":[],
+                    "url":"tinymceEditor"
+                },
+                {
+                    "menuname":"wangEditor" ,
+                    "icon":"",
+                    "menuid":"wangEditor",
+                    "menus":[],
+                    "url":"wangEditor"
+                },
+                {
+                    "menuname":"CKEditor" ,
+                    "icon":"",
+                    "menuid":"CKEditor",
+                    "menus":[],
+                    "url":"CKEditor"
+                },
+                {
+                    "menuname":"Draft.js" ,
+                    "icon":"",
+                    "menuid":"Draft.js",
+                    "menus":[],
+                    "url":"DraftJs"
+                },
+                {
+                    "menuname":"quill",
+                    "icon":null ,
+                    "menuid":"quill",
+                    "menus":[],
+                    "url":"quill"
+                }
+            ]
+        },
+        {
+            "menuname":"地图plugin" ,
+            "icon":"",
+            "menuid":"map~plugin",
+            "url":null ,
+            "menus":[
+                {
+                    "menuname":"百度地图",
+                    "icon":"" ,
+                    "menuid":"bMap",
+                    "menus":[] ,
+                    "url":"bMap"
+                },
+                {
+                    "menuname":"腾讯地图",
+                    "icon":"" ,
+                    "menuid":"tMap",
+                    "menus":[] ,
+                    "url":"tMap"
+                },
+                {
+                    "menuname":"高德地图",
+                    "icon":"" ,
+                    "menuid":"gdMap",
+                    "menus":[] ,
+                    "url":"gdMap"
+                }
+            ]
+        },
+        {
+            "menuname":"库",
+            "icon":"" ,
+            "menuid":"package",
+            "url":"" ,
+            "menus":[
+               {
+                "menuname":"what" ,
+                "icon":"" ,
+                "menuid":"" ,
+                "url":"what" ,
+                "deem":"https://blog.csdn.net/baidu_38493460/article/details/130760817 "
+               } 
+            ]
+        },
+        {
+            "menuname":"其它",
+            "icon":"",
+            "menuid":"other",
+            "url":"",
+            "menus":[
+                {
+                    "menuname":"webRTC",
+                    "icon":"",
+                    "menuid":"webRTC",
+                    "menus":[] ,
+                    "url":"webRTC",
+                    "demo" :"http://webrtc.p2hp.com/getting-started/overview.html#google_vignette , https://zhuanlan.zhihu.com/p/542466912"
+                },
+                {
+                    "menuname":"webLive",
+                    "icon":"",
+                    "menuid":"webLive",
+                    "menus":[] ,
+                    "url":"webLive",
+                    "demo" :"https://gitee.com/adonggege/live/blob/master/src/views/PushLive.vue "
+                },
+                {
+                    "menuname":"可视化大屏",
+                    "icon":"" ,
+                    "menuid":"visualScreen",
+                    "url":"visualScreen",
+                    "demo":" https://baijiahao.baidu.com/s?id=1764791708311143877&wfr=spider&for=pc , http://datav.jiaminghi.com/ , https://github.com/DataV-Team/DataV , https://github.com/antvis/ "
+                }
+            ]
+        }
+    ]
+  },
+  "menu-user":{
+    "explain" : "头部导航个人办公路由信息",
+    "data" : [
+      {
+          "menuname": "申请及审批", 
+          "icon": "", 
+          "menuid": "1a275dabbcea495b976649d7ff705545", 
+          "menus": [
+              {
+                  "menuname": "新建申请", 
+                  "icon": "", 
+                  "menuid": "783112132a4c4fa7946b906d0c87d76a", 
+                  "menus": [ ], 
+                  "url": "workflow/create_index"
+              }, 
+              {
+                  "menuname": "我的申请", 
+                  "icon": "", 
+                  "menuid": "b5d2c933e22c45458736ef3efad504cc", 
+                  "menus": [ ], 
+                  "url": "workflow/myApplyIndex"
+              }, 
+              {
+                  "menuname": "待我审批", 
+                  "icon": "", 
+                  "menuid": "83b31b09a0944248ae82f30cdc8fc036", 
+                  "menus": [ ], 
+                  "url": "workflow/waitingApplyIndex"
+              }, 
+              {
+                  "menuname": "经我审批", 
+                  "icon": "", 
+                  "menuid": "8085fe41cea6463bbb7a1726791d25b2", 
+                  "menus": [ ], 
+                  "url": "workflow/applyHisIndex"
+              }, 
+              {
+                  "menuname": "抄送我的", 
+                  "icon": "", 
+                  "menuid": "2e9ecf77c5184182a3ea34a1babb1ad6", 
+                  "menus": [ ], 
+                  "url": "workflow/ccApplyIndex"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "公共文件柜", 
+          "icon": "", 
+          "menuid": "9cd11ee4091e4944ad658282691a3d9e", 
+          "menus": [
+              {
+                  "menuname": "公共文件柜", 
+                  "icon": "", 
+                  "menuid": "49ea1671e51643af933874d1d3be84f6"
+              }, 
+              {
+                  "menuname": "盖章", 
+                  "icon": "", 
+                  "menuid": "a3307782f02f4ea5933c598e4d2ad1e6", 
+                  "menus": [ ], 
+                  "url": "gzFile/index"
+              }
+          ], 
+          "url": "officepublicfile/index"
+      }, 
+      {
+          "menuname": "日程安排", 
+          "icon": "", 
+          "menuid": "3b543cd5e9fe424c88f1b31cd7839eca", 
+          "menus": [
+              {
+                  "menuname": "日程安排", 
+                  "icon": "", 
+                  "menuid": "3b543cd5e9fe424c88f1b31cd783933", 
+                  "menus": [ ], 
+                  "url": "scheduleplan/calenderIndex"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "系统消息", 
+          "icon": "", 
+          "menuid": "9e7290eec8194daaa84bb9af5405b068", 
+          "menus": [
+              {
+                  "menuname": "已发消息", 
+                  "icon": "", 
+                  "menuid": "430391812bc24428b93aa73c82e67f41", 
+                  "url": "message/send"
+              }, 
+              {
+                  "menuname": "已收消息", 
+                  "icon": "", 
+                  "menuid": "76989abcfd234a219d0eec98c8b0ad22", 
+                  "menus": [ ], 
+                  "url": "message/receive"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "申请管理", 
+          "icon": "", 
+          "menuid": "20aa8ca9bd0a473ba99f0c7cbd3e0886", 
+          "menus": [
+              {
+                  "menuname": "申请汇总", 
+                  "icon": "", 
+                  "menuid": "3b76294a5b8646d5b7a435be46b7b54d", 
+                  "menus": [ ], 
+                  "url": "workflow/all_index"
+              }, 
+              {
+                  "menuname": "申请统计", 
+                  "icon": "", 
+                  "menuid": "75b7784895f74176b853528e4164d17e", 
+                  "menus": [ ], 
+                  "url": "workflow/count_index"
+              }
+          ], 
+          "url": ""
+      }
+    ] 
+  } ,
+  "menu-synergy" :{
+    "explain":"头部导航协同办公路由信息",
+    "data" : [
+      {
+          "menuname": "人力资源", 
+          "icon": "", 
+          "menuid": "72408f8fccf6468595c536c214327b33", 
+          "menus": [
+              {
+                  "menuname": "人事信息", 
+                  "icon": "", 
+                  "menuid": "0e086be6939a499995e46324c541ae55", 
+                  "url": "userinfo/index"
+              }, 
+              {
+                  "menuname": "证件管理", 
+                  "icon": "", 
+                  "menuid": "a2cdf83cbd714aa290aac407ff296d72", 
+                  "url": "userinfo/zjmanagement"
+              }, 
+              {
+                  "menuname": "离职人员", 
+                  "icon": "", 
+                  "menuid": "022b4103cb0d4be9a668107a79669f9b", 
+                  "url": "userinfo/resignation"
+              }, 
+              {
+                  "menuname": "通讯录", 
+                  "icon": "", 
+                  "menuid": "5772acd9dfe942e4a6eca9d11c5ab3cd", 
+                  "url": "userInfoAccount/zreeIndex"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "新闻通知", 
+          "icon": "", 
+          "menuid": "d0bba522d3394e8cb454f15ec11a2368", 
+          "menus": [
+              {
+                  "menuname": "新闻中心", 
+                  "icon": "", 
+                  "menuid": "2a3ffb6ec264433b8201347524724657", 
+                  "url": "news/index"
+              }, 
+              {
+                  "menuname": "公告通知", 
+                  "icon": "", 
+                  "menuid": "1b9f904129e2468bab9991ec15948f3b", 
+                  "url": "notice/index"
+              }, 
+              {
+                  "menuname": "图片新闻", 
+                  "icon": "", 
+                  "menuid": "681c6419fa684dc2a3deebb5d1773210", 
+                  "url": "newsIcon/index"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "公司管理", 
+          "icon": "", 
+          "menuid": "cec85e8ef26745f7a5d3ac32c0c5d323", 
+          "menus": [
+              {
+                  "menuname": "公司信息", 
+                  "icon": "", 
+                  "menuid": "cec85e8ef26745f7a5d3ac32c0c5d3aa", 
+                  "url": "companyinfo/index"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "招聘管理", 
+          "icon": "", 
+          "menuid": "9e8b698cad184370a9115a1c8094c9b0", 
+          "menus": [
+              {
+                  "menuname": "招聘申请", 
+                  "icon": "", 
+                  "menuid": "a72723923534483c9fb442fd127dacb7", 
+                  "url": "replenishuser/index"
+              }, 
+              {
+                  "menuname": "人才库", 
+                  "menuid": "e724010b43154a63887da9e15d51d980", 
+                  "url": "talentPool/index"
+              }, 
+              {
+                  "menuname": "招聘录用", 
+                  "menuid": "9223f1ea7e6649e097f4460dd8b191f3", 
+                  "url": "recruitmentEmp/index"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "用品管理", 
+          "icon": "", 
+          "menuid": "e8a0093a4f064479b7be470a1905c657", 
+          "menus": [
+              {
+                  "menuname": "用品档案", 
+                  "icon": "", 
+                  "menuid": "0a932d50df134ad692964c496c4c53ac", 
+                  "url": "officesupply/index"
+              }, 
+              {
+                  "menuname": "领用记录", 
+                  "icon": "", 
+                  "menuid": "7f0f0651adda4392a8b4843716017847", 
+                  "url": "officeSupplyUse/index"
+              }, 
+              {
+                  "menuname": "借用记录", 
+                  "icon": "", 
+                  "menuid": "eb6bae1ab99e4613b4e455824e35c517", 
+                  "url": "officeSupplyBorrow/index"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "考勤管理", 
+          "icon": "", 
+          "menuid": "7b35dae46f8f458b83a21718681e3ebe", 
+          "menus": [
+              {
+                  "menuname": "考勤设置", 
+                  "icon": "", 
+                  "menuid": "3da663780560435e963b10bc289572d3", 
+                  "menus": [ ], 
+                  "url": "attendanceSet/index"
+              }, 
+              {
+                  "menuname": "法定节假日", 
+                  "icon": "", 
+                  "menuid": "661eeb78802f4c058f9292eaec195e22", 
+                  "url": "attendanceHoliday/index"
+              }, 
+              {
+                  "menuname": "特定日期", 
+                  "icon": "", 
+                  "menuid": "9b53c7c3887f4d8c927b7cc9bc442ae8", 
+                  "url": "attendanceSpecific/index"
+              }, 
+              {
+                  "menuname": "考勤统计", 
+                  "icon": "", 
+                  "menuid": "a9af56e2470346d69718f317c9efdaa7", 
+                  "menus": [ ], 
+                  "url": "attendancecollect/index"
+              }
+          ], 
+          "url": ""
+      }, 
+      {
+          "menuname": "证照借用", 
+          "icon": "", 
+          "menuid": "0e393f2205834b45b2ea0abeb6666a87", 
+          "menus": [
+              {
+                  "menuname": "证照归还", 
+                  "icon": "", 
+                  "menuid": "5116ba5fdae04cf79195a62909129e09", 
+                  "menus": [ ], 
+                  "url": "borrowingCertificateRecordForm/index"
+              }
+          ], 
+          "url": ""
+      }
+    ]
+  },
+
+  "menu-business" : {
+    "explain" :"头部导航业务管理路由信息" ,
+    "data" : [
+      {
+        "menuname": "客户管理", 
+        "icon": "", 
+        "menuid": "d1045639e35741b7a61e2b04e582ff4c", 
+        "menus": [
+            {
+                "menuname": "我的客户", 
+                "icon": "", 
+                "menuid": "a6ce933a34d640c08dc8e88352acf9c7", 
+                "menus": [
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "8e1ead5b418843c9a6f228c874fe0ff8", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "新建", 
+                        "icon": "", 
+                        "menuid": "8994ab763b7c46f8a324a4aef9ebab65", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "编辑", 
+                        "icon": "", 
+                        "menuid": "f597669aa2d44878873f2b79c056deec", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "d5a7fe014cf243b994c43c12d376f0d7", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "添加联系人", 
+                        "icon": "", 
+                        "menuid": "897983dfc1e1492896804cb3a56dbc52", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "添加拜访记录", 
+                        "icon": "", 
+                        "menuid": "74c15baadb97495b84fd62a6f92f6c1c", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "导出", 
+                        "icon": "", 
+                        "menuid": "fc4eb00c58354f2ebb833b51fa1cc3d4", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "打印", 
+                        "icon": "", 
+                        "menuid": "7e10fb572c77425d80fda3bab97915a5", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "customer/myIndex"
+            }, 
+            {
+                "menuname": "全部客户", 
+                "icon": "", 
+                "menuid": "5a8d440b3c714f3aa56b013dd6d5d4c7", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "8511bf1ddfae475385b6d0f61de639fe", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "8152b6d2724b49aab6ea8ecc9cb1b6f4", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "41e462e12596407eb421b2b9ff4a391b", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "3d1c6ce59fc94f71ba7764a60cfe97f2", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "添加联系人", 
+                        "icon": "", 
+                        "menuid": "8598490226c1484394476ec7cda75d91", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "添加拜访记录", 
+                        "icon": "", 
+                        "menuid": "e3eddd37e4dd40dfaca67812a9ea6cb4", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "导出", 
+                        "icon": "", 
+                        "menuid": "bd19814ef8d24970b73cd8f07305abfb", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "打印", 
+                        "icon": "", 
+                        "menuid": "efd5458c930649a989532420059684de", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "customer/index"
+            }, 
+            {
+                "menuname": "客户统计", 
+                "icon": "", 
+                "menuid": "c1eb28247a2143bf8aa246140060a84b", 
+                "menus": [ ], 
+                "url": "customer/navigationbar"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "合同管理", 
+        "icon": "", 
+        "menuid": "517f0f19ad974429957d0402367d7669", 
+        "menus": [
+            {
+                "menuname": "新建合同", 
+                "icon": "", 
+                "menuid": "b76a2e6b00144e368863b3197d822e74", 
+                "menus": [ ], 
+                "url": "contract/editAdd"
+            }, 
+            {
+                "menuname": "我的合同", 
+                "icon": "", 
+                "menuid": "11a4327bbc0a4da6b946ebb0463a3874", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "55c0d2c6e13c4ba6a5a495b4c7d1c04b", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "20649f7da5af45edb754bcc4fab2b693", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "ff925ede5fc540478ad17edddfe97a0d", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "6d86a89d21f743fba33be6a879d4634f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "合同附件", 
+                        "icon": "", 
+                        "menuid": "f3969c469796474dba6af5d7f714742f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "合同归档", 
+                        "icon": "", 
+                        "menuid": "a6537923067d4471adbe557a57dabc9c", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "contract/myIndex"
+            }, 
+            {
+                "menuname": "全部合同", 
+                "icon": "", 
+                "menuid": "de18d576e0b743f78fb4c28e0a020df6", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "8b7be48023fe42299556b81444677321", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "4da271d533df4c3696a2a466ae658342", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "a4f38269fb86477aa7fade0b9b37c21a", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "fbbea4c8082a4b42ba98c266e6c4be13", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "合同附件", 
+                        "icon": "", 
+                        "menuid": "6d82da9b4d544750aee3fad4c3d0b907", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "contract/index"
+            }, 
+            {
+                "menuname": "数据统计", 
+                "icon": "", 
+                "menuid": "180f56ec52bd44d4b9797c0edbdbd262", 
+                "menus": [ ], 
+                "url": "contract/statementIndex"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "项目管理", 
+        "icon": "", 
+        "menuid": "33410bc8f2a045fcb23427a8fb16522c", 
+        "menus": [
+            {
+                "menuname": "新建项目", 
+                "icon": "", 
+                "menuid": "01b1fbd1b99842c0ad4914b6e0e81fa9", 
+                "menus": [ ], 
+                "url": "zjProject/editAdd"
+            }, 
+            {
+                "menuname": "我的项目", 
+                "icon": "", 
+                "menuid": "b87f3db201904c1f85b57288d84643c9", 
+                "menus": [
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "abca30b5d3014ad9934a2535f78b2204", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "导出", 
+                        "icon": "", 
+                        "menuid": "52b0d8e222444d38925e90610cd16a6f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "打印", 
+                        "icon": "", 
+                        "menuid": "a7da7c1873e7488bb12878cfac0ed4ae", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "zjProject/myIndex"
+            }, 
+            {
+                "menuname": "全部项目", 
+                "icon": "", 
+                "menuid": "a240c4d6ad6f4930bbc122c120ca5d03", 
+                "menus": [
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "28a3d1b330674631a26288e80e9a4196", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "导出", 
+                        "icon": "", 
+                        "menuid": "cf33157c891447a59be44e9860fdaa9e", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "打印", 
+                        "icon": "", 
+                        "menuid": "f4c231f60f8d41b1b4692fab16579fe4", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "zjProject/index"
+            }, 
+            {
+                "menuname": "我的任务", 
+                "icon": "", 
+                "menuid": "6aea203f4ea54be69c7b730ab2ab2bca", 
+                "menus": [ ], 
+                "url": "zjProjectTask/myTaskIndex"
+            }, 
+            {
+                "menuname": "任务跟踪", 
+                "icon": "", 
+                "menuid": "9c7fe0ab94ab4499bc04ef83d2de0fb7", 
+                "menus": [ ], 
+                "url": "zjProject/taskTrackingIndex"
+            }, 
+            {
+                "menuname": "项目跟踪", 
+                "icon": "", 
+                "menuid": "6cf78cf30c0b4cc484ff1b32ffd48203", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "142fd70054e8453881417a8c83aa4df1", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "5a70fdab57274809a45b4ae5858f6a96", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "2e0bc7304ac14f0eb43ee9e3a8f78bae", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "f7a0fa27c9774a52b85c217b13c80ecc", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "zjProject/projectTrackingIndex"
+            }, 
+            {
+                "menuname": "数据统计", 
+                "icon": "", 
+                "menuid": "bcfb39b95793445da12adf0caf7b441d", 
+                "menus": [ ], 
+                "url": "zjStatistics/index"
+            }, 
+            {
+                "menuname": "项目审核单据", 
+                "icon": "", 
+                "menuid": "44e268cc6a5e4162b1ca9219319f334b", 
+                "menus": [ ], 
+                "url": "projectVerifyBill/index"
+            }, 
+            {
+                "menuname": "信息一览表", 
+                "icon": "", 
+                "menuid": "1643c817fca9488e8a3cf8a932b300d7", 
+                "menus": [ ], 
+                "url": "projectPreview/index"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "投标管理", 
+        "icon": "", 
+        "menuid": "437df9155e5d4dbea90856516ee56239", 
+        "menus": [
+            {
+                "menuname": "新建项目", 
+                "icon": "", 
+                "menuid": "ccd4788fdb884f86803be88af40078da", 
+                "menus": [ ], 
+                "url": "tbprojectinfo/add"
+            }, 
+            {
+                "menuname": "项目汇总", 
+                "icon": "", 
+                "menuid": "963676949c5a49658307274e1459d597", 
+                "menus": [
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "e00a42ed880140aaac025400984efe29", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "22754c8e9b0a44c89e8fe875f5c85511", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "e26b2ea2798a41c6b824b09a69651067", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "标书制作", 
+                        "icon": "", 
+                        "menuid": "5229ab0f5047425c9a2152dfce0e42ad", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "tbprojectinfo/index"
+            }, 
+            {
+                "menuname": "我的任务", 
+                "icon": "", 
+                "menuid": "40bf71b2fc0c44bd8327f6bf99ccd096", 
+                "menus": [
+                    {
+                        "menuname": "我的任务", 
+                        "icon": "", 
+                        "menuid": "0bbd7123f92d447c8de421b12d74d8a0", 
+                        "menus": [ ], 
+                        "url": "tbProjectTask/index?state=1"
+                    }, 
+                    {
+                        "menuname": "所有任务", 
+                        "icon": "", 
+                        "menuid": "94052ed18cdf444d90ee221ee5268e5d", 
+                        "menus": [ ], 
+                        "url": "tbProjectTask/index?state=0"
+                    }
+                ], 
+                "url": "tbProjectTask/myTaskIndex"
+            }, 
+            {
+                "menuname": "任务跟踪", 
+                "icon": "", 
+                "menuid": "dedc713352574166b04b603778ceaa00", 
+                "menus": [ ], 
+                "url": "tbProjectTask/taskTrackingIndex"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "财务管理", 
+        "icon": "", 
+        "menuid": "5c1b011381ed458ba459c66319636861", 
+        "menus": [
+            {
+                "menuname": "开票申请", 
+                "icon": "", 
+                "menuid": "379c0d5a17214c718384f72825b5fc65", 
+                "menus": [ ], 
+                "url": "financeall/all"
+            }, 
+            {
+                "menuname": "开票信息", 
+                "icon": "", 
+                "menuid": "0bb1543c6a3c465882619b1e3e446605", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "2fc0a6fe4ca143dd88bf5d484bc87ba0", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "09c19aef87024772b63f5636088c033a", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "billing/all"
+            }, 
+            {
+                "menuname": "数据统计", 
+                "icon": "", 
+                "menuid": "744c2b5c971842fa8e3b9202f75223d0", 
+                "menus": [ ], 
+                "url": "billing/index"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "档案管理", 
+        "icon": "", 
+        "menuid": "67413949fade4633b971e298c2fdbbb4", 
+        "menus": [
+            {
+                "menuname": "全部档案", 
+                "icon": "", 
+                "menuid": "d5dae50be678479c9fb8913eb3c6d1f8", 
+                "menus": [ ], 
+                "url": "daarchivesinfo/index?type=2"
+            }, 
+            {
+                "menuname": "档案外借信息", 
+                "icon": "", 
+                "menuid": "76d11d2d8104483084fb795cd5925d17", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "e18d5914b7f942218cebcb5a7a1c6d03", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "c5875882459a474799ea9c9299414294", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "8d8f7a33b13e4a75baf175ed95a35dca", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "查看", 
+                        "icon": "", 
+                        "menuid": "f4d5c65a899d4fa4bf464e214ba0cbfb", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "daarchiveslease/index"
+            }
+        ], 
+        "url": ""
+      }
+    ]
+  },
+
+  "menu-setting" : {
+    "explain":"头部导航设置管理路由信息" ,
+    "data" : [
+      {
+        "menuname": "基础数据", 
+        "icon": "", 
+        "menuid": "7b620d2c8979469e91d731fc7175f24a", 
+        "menus": [
+            {
+                "menuname": "编码规则", 
+                "icon": "", 
+                "menuid": "88692a726fb646c9aecc65bb83b761d6", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "e93c66c1c2d34d249ecdf221e064b5a5", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "72bc9c12f41144d1b2e7baf10f166a83", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "20b5d14396af4d77995545de943d85da", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "coderule/index"
+            }, 
+            {
+                "menuname": "部门管理", 
+                "icon": "", 
+                "menuid": "b4110de9faed4f8aa7e0f5cb6b5d7e99", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "63ead401706a4b86b1696c909b0ad482", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "c033747efa9945f6a6f5253d0364006a", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "6cc3974ea8184deab0476fb7a8798af9", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "dept/index"
+            }, 
+            {
+                "menuname": "数据字典", 
+                "icon": "", 
+                "menuid": "b6ab5a415dd14068b92293634cd7a8a1", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "3fd5496ab7584d39b3b09a51b25356bb", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "25f83b39d5a047c18e52cd8ab916eccf", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "e4287961b7024f4a8e549de1f7cad4fa", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "dictionary/index"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "系统设置", 
+        "icon": "", 
+        "menuid": "0185161ab6a64127896b2ec80fd8da1a", 
+        "menus": [
+            {
+                "menuname": "资源管理", 
+                "icon": "", 
+                "menuid": "cd040d4477fd4a55948a60047fdd6adf", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "58d02f6e1dc34ff2a8e84066ed29550f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "584e9ce1da304cdea728db9dc9ead81a", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "3527a68b2507445d83d15fab114792cb", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "sysNavigation/index"
+            }, 
+            {
+                "menuname": "角色管理", 
+                "icon": "", 
+                "menuid": "a600e121ba794bd1ba1b45206a05f2e7", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "33a406407aac4194aed8c02cbe7c6847", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "327323ecdaeb4c3793da14476d0c0627", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "权限设置", 
+                        "icon": "", 
+                        "menuid": "e341c080bccf4494bee37f1c6896b631", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "d1653c19b2ee43e7807016ae67e86a81", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "roles/index"
+            }, 
+            {
+                "menuname": "账号管理", 
+                "icon": "", 
+                "menuid": "201aced0cbd447588916f8d6522d9700", 
+                "menus": [
+                    {
+                        "menuname": "账号启用/停用", 
+                        "icon": "", 
+                        "menuid": "96127c34e6c241fdbffa6447c7217ba1", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "角色授权", 
+                        "icon": "", 
+                        "menuid": "443f0616766645229724a32c9fe51e3a", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "密码修改", 
+                        "icon": "", 
+                        "menuid": "1504a659e11e46f982e1a422535e7eef", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "userInfoAccount/index"
+            }, 
+            {
+                "menuname": "全局设置", 
+                "icon": "", 
+                "menuid": "114a5e27571e4ccdb67ee30cff3946ed", 
+                "menus": [
+                    {
+                        "menuname": "数据添加/修改", 
+                        "icon": "", 
+                        "menuid": "5f9484a430434398ab0b134a1309b18f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "systemConfig/forwardEdit"
+            }, 
+            {
+                "menuname": "标书制作", 
+                "icon": "", 
+                "menuid": "dc739502a83746a296d42bb8a2291433", 
+                "menus": [
+                    {
+                        "menuname": "添加", 
+                        "icon": "", 
+                        "menuid": "144b9c7377d749cebfc443d846c38bf4", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改", 
+                        "icon": "", 
+                        "menuid": "a8a1b50e8b54498f810f223332c76fdd", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除", 
+                        "icon": "", 
+                        "menuid": "053582ae46b1489eba8c54c2ddb79a0f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "tbmodel/index"
+            }
+        ], 
+        "url": ""
+      }, 
+      {
+        "menuname": "流程管理", 
+        "icon": "", 
+        "menuid": "0a7aa0a22f4d4c5f9443e9799becdd87", 
+        "menus": [
+            {
+                "menuname": "流程设计", 
+                "icon": "", 
+                "menuid": "05b7cc27261041e48d364a75697c2faa", 
+                "menus": [
+                    {
+                        "menuname": "添加流程", 
+                        "icon": "", 
+                        "menuid": "99a9d0ba7f1e4f149c1db87e89f4e9ee", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "修改流程", 
+                        "icon": "", 
+                        "menuid": "f89ffb18db1d40a39b7894dd73a12f07", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "部署流程", 
+                        "icon": "", 
+                        "menuid": "2e1046e41231417c830b35605832041f", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除流程", 
+                        "icon": "", 
+                        "menuid": "7f09c1d17111493ab25ed4063a95c5d0", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "actModel/index"
+            }, 
+            {
+                "menuname": "流程列表", 
+                "icon": "", 
+                "menuid": "9d47afbb733245bab17fc70a92e98400", 
+                "menus": [
+                    {
+                        "menuname": "激活流程", 
+                        "icon": "", 
+                        "menuid": "0466d5e9f88947e5ae49a190ff220a90", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "挂起流程", 
+                        "icon": "", 
+                        "menuid": "078a1714a46a4c23b4fd683a6758a6a5", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "删除流程", 
+                        "icon": "", 
+                        "menuid": "107a0aea26514f14af199ea1415769aa", 
+                        "menus": [ ], 
+                        "url": ""
+                    }, 
+                    {
+                        "menuname": "流程节点设置", 
+                        "icon": "", 
+                        "menuid": "f57c0376ae9f4269aaed642e87a99037", 
+                        "menus": [ ], 
+                        "url": ""
+                    }
+                ], 
+                "url": "actProcDef/index"
+            }
+        ], 
+        "url": ""
+      }
+    ]
+  }
+
+
+
+
+
+
+}
