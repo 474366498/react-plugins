@@ -25,6 +25,8 @@ import BMap from './map/bMap'
 import TxMap from './map/tMap'
 import GdMap from './map/gdMap'
 
+import VirtualList from './package/virtual'
+
 import WebLive from './other/webLive'
 
 
@@ -55,6 +57,10 @@ export const pageMap = new Map([
   ['bMap', <BMap />],
   ['tMap', <TxMap />],
   ['gdMap', <GdMap></GdMap>],
+
+  ['virtual', <VirtualList />],
+
+
 
   ['webLive', <WebLive />],
 ])

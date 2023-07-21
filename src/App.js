@@ -1,5 +1,6 @@
 
 // import logo from './logo.svg';
+import { useLocation } from 'react-router';
 import './App.css';
 
 // import { useSelector, useDispatch } from 'react-redux'
@@ -87,12 +88,8 @@ function App() {
 
 
 function App() {
-  // const navigate = useNavigate()
-  // const userInfo = useSelector(state => state.userInfo)
-  // console.log(87, userInfo)
-  // if (!userInfo) {
-  //   navigate('/login', true)
-  // }
+  const location = useLocation()
+  console.log(92, location)
   return (
     <Layout />
   )

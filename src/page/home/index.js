@@ -5,7 +5,7 @@ import { useRef, useState } from "react"
 function Home() {
   const [constraints, setConstraints] = useState(null),
     [stream, setStream] = useState(null)
-  const v1 = useRef()
+  const a1 = useRef(), v1 = useRef()
 
 
   const onClick = () => {
@@ -19,16 +19,30 @@ function Home() {
       setConstraints(s)
     }
   },
-    onOpen = () => {
+    onOpenAudio = () => {
       navigator.mediaDevices.getUserMedia({
         audio: true,
         video: false
-        // video: {
-        //   width: 720,
-        //   height: 720,
-        //   frameRect: { ideal: 10, max: 15 },
-        //   facingMode: 'user'
-        // }
+      }).then(stream => {
+        let audio = a1?.current
+        if (!audio) return
+        audio.srcObject = stream
+        audio.onloadedmetadata = function () {
+          audio.play()
+        }
+      }).catch(error => {
+        console.log(error)
+      })
+    },
+    onOpenVideo = () => {
+      navigator.mediaDevices.getUserMedia({
+        audio: false,
+        video: {
+          width: 720,
+          height: 720,
+          frameRect: { ideal: 10, max: 15 },
+          facingMode: 'user'
+        }
       })
         .then((stream) => {
           let video = v1?.current
@@ -36,7 +50,7 @@ function Home() {
           console.log(36, stream)
           video.srcObject = stream
           video.onloadedmetadata = function () {
-            video.play
+            video.play()
           }
         })
         .catch(error => {
@@ -50,9 +64,13 @@ function Home() {
         : <div>{constraints?.info || '点按钮'}</div>
       }
       <Button onClick={e => onClick()}> Click </Button>
+      <audio id='a1' ref={a1} controls > </audio>
       <video id='v1' ref={v1}> </video>
       <p>{stream ? 'stream' : 'null'}</p>
-      <Button onClick={e => onOpen()}> Open </Button>
+      <div className="flex flex-jc-sa">
+        <Button onClick={e => onOpenAudio()}> Open Audio </Button>
+        <Button onClick={e => onOpenVideo()}> Open Video </Button>
+      </div>
     </div>
   )
 }

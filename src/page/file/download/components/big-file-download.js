@@ -11,7 +11,8 @@ export function BigFileDownload() {
     { name: '成都北湖礼宴中心.rar', src: 'http://zcfile.cdxyun.cn/UploadFilesZCJD/UploadFiles/officepublicfiles/2023-04-23/9f68269d7e0d4823aa3d96db86d43f29.rar' },
     { name: '783293%%44#￥￥&&.jpg', src: 'http://zcfile.cdxyun.cn/UploadFilesZCJD/UploadFiles/officepublicfiles/2023-04-23/8c7a5b5bb9474471b7715ba7f020b9ac.jpg' },
     { name: '内江市公安局市中区分局业务技术用房及救灾物资储备库项目竣工结算审核服务采购项目.doc', src: 'http://zcfile.cdxyun.cn/UploadFilesZCJD/UploadFiles/officepublicfiles/2023-04-23/7099b7fefd4a43759ad33e99e02e8009.doc' },
-    { name: '竣工报告-副本.pdf', src: 'http://zcfile.cdxyun.cn/UploadFilesZCJD/UploadFiles/officepublicfiles/2023-04-23/1190c4f116c24c1bb25850f3ee00e214.pdf' }
+    { name: '竣工报告-副本.pdf', src: 'http://zcfile.cdxyun.cn/UploadFilesZCJD/UploadFiles/officepublicfiles/2023-04-23/1190c4f116c24c1bb25850f3ee00e214.pdf' },
+    // { name: '14.doc', src: 'http://47.108.226.58:8081/static/tempFiles/9365752870fd40b08bdee8027f6326f2/a974b53b53ac4bb3a4035d1baf8fcbde/splitword_ytc/14.docx' }
   ]
 
   const onDownloadFile = (file) => {
