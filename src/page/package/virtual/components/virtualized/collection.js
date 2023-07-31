@@ -60,14 +60,13 @@ export default function VirtualizedCollection() {
               ? 'pink'
               : '#f5f5f5'
     return (
-      <>
+      <div key={key}>
         {
           options.placeholder && isScrolling
             ? <div key={key} style={style}>加载...</div>
-            : <div key={key} style={style}>{index} : {options.users[index].name}
-            </div>
+            : <div key={key} style={style}>{index} : {options.users[index].name}</div>
         }
-      </>
+      </div>
     )
   },
     noContentRender = () => {

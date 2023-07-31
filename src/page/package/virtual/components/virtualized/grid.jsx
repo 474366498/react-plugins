@@ -64,7 +64,7 @@ export default class VirtualizedGrid extends Component {
           content = item.longText
           style = {
             ...style,
-            '-webkit-line-clamp': Math.ceil(parseInt(style.height) / 20),
+            // '-webkit-line-clamp': Math.ceil(parseInt(style.height) / 20),
             overflow: 'hidden',
             textOverflow: 'ellipsis',
             display: '-webkit-box',
