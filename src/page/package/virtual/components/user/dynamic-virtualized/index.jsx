@@ -14,7 +14,7 @@ export default class UserDynamicVirtualizedList extends Component {
   
   constructor(props) {
     super(props)
-    this.list = generateUsers(1e6)
+    this.list = generateUsers(1e2)
     this.state = {
       startOffset: 0,
       endOffset: 0,

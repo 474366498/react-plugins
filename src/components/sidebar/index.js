@@ -3,13 +3,13 @@ import { NavLink, useLocation, useNavigate } from "react-router-dom"
 import { useSelector, useDispatch } from "react-redux"
 
 import { addTabsRoute, updateTabsKey, updateForceUpdate } from '../../redux/reducer/router'
-import { Menu } from "antd"
+import { Menu, message } from "antd"
 import { useEffect, useState } from "react"
 import { find } from "../../utils/array"
 import { force } from "../force"
 
 function Sidebar() {
-  const location = useLocation(), navigate = useNavigate()
+  const location = useLocation(), navigate = useNavigate(), [messageApi, contextHolder] = message.useMessage()
   const sidebar = useSelector(({ user }) => user.sidebar),
     sidebarMenu = useSelector(({ router }) => router.sidebarMenu),
     tabsKey = useSelector(({ router }) => router.tabsKey),
@@ -18,13 +18,13 @@ function Sidebar() {
 
   console.log(16, location, sidebarMenu, tabsKey)
 
-
   const items = menuToItmes(sidebarMenu)
-  const firstMenuKey = sidebarMenu.map(item => {
+  const firstMenuKey = sidebarMenu ? sidebarMenu.map(item => {
     return item.menuid
-  })
+  }) : []
 
   function menuToItmes(data) {
+
     const items = data.map(item => {
       let children = item.menus && item.menus.length > 0 ? menuToItmes(item.menus) : null,
         type = item.menus && item.menus.length > 0 ? '' : 'group'
@@ -229,6 +229,7 @@ function Sidebar() {
           items.map(item => showMenuItems(item))
         }
       </Menu>
+      {contextHolder}
     </div >
   )
 }

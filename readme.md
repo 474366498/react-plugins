@@ -84,3 +84,13 @@ useEffect(()=>{
 },[])
 
 ```
+
+react-tabs 
+
+  多个路由 有登录权限设置 路由中有 meta字段 表示是否要在tabs中展示 有部分页面是不在tabs中展示的 
+    meta : { auth : 权限字段 ,  tabs : 是否是tabs 路由 ,  title : 标题 }
+  错误路由 错误路由信息(route.errorElement route.loader route.lazy...)  
+
+
+
+

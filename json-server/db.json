@@ -92,6 +92,13 @@
                     "menuid":"imgEdit" ,
                     "menus":[] ,
                     "url":"imgEdit"
+                },
+                {
+                    "menuname":"自动裁剪",
+                    "icon":"",
+                    "menuid":"autoCrop",
+                    "menus":[] ,
+                    "url":"autoCrop"
                 }
             ]
         },

@@ -116,7 +116,7 @@ function ImgEdit() {
       <Button onClick={ onSave}>save</Button>
     </div>
     <UserCropper  />
-        {contextHolder}
+    {contextHolder}
   </div>)
 }
 

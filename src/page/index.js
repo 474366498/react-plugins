@@ -9,6 +9,7 @@ import DownloadFile from './file/download'
 import FileView from './file/view'
 import FilePrint from './file/print'
 import ImgEdit from './file/imgEdit'
+import AutoCrop from './file/AutoCrop'
 
 
 import MultiMedia from './media/multimedia'
@@ -42,6 +43,7 @@ export const pageMap = new Map([
   ['fileView', <FileView />],
   ['filePrint', <FilePrint />],
   ['imgEdit', <ImgEdit />],
+  ['autoCrop', <AutoCrop />],
 
   ['multimedia', <MultiMedia />],
   ['useMusicPlayer', <MusicPlayer />],

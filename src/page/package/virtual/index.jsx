@@ -1,6 +1,6 @@
 
 import  React , { useEffect, useRef } from 'react'
-import {Link , NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
+import {Link , NavLink, Route, Routes, useLocation, useNavigate  } from 'react-router-dom'
 import UseReactVirtualized from './components/use-react-virtualized'
 import UseReactVirtuoso from './components/use-react-virtuoso'
 import UserVirtualized from './components/user-virtualized'
@@ -8,14 +8,8 @@ import UserVirtualized from './components/user-virtualized'
 export default function VirtualList() {
   const location = useLocation(),
     navigate = useNavigate()
-  console.log(10, location)
+  console.log(10, location )
   
-  // useEffect(() => { 
-  //   if (location.pathname === '/virtual') {
-  //       console.log('转')
-  //       navigate('virtual/react-virtuoso')    
-  //     }
-  // },[])
   const links = [
     {label:'react-virtuoso' , name : '?react-virtuoso',element:<UseReactVirtuoso />} ,
     { label: 'react-virtualized', name: '?react-virtualized', element: <UseReactVirtualized /> },
