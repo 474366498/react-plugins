@@ -42,6 +42,13 @@
                     "menuid":"userIcon" ,
                     "menus":[] ,
                     "url":"userIcon"
+                },
+                {
+                    "menuname":"ctrl cv" ,
+                    "icon":"" , 
+                    "menuid":"ctrl" ,
+                    "menus":[] ,
+                    "url":"ctrlCV"
                 }
             ]
         },
@@ -99,6 +106,13 @@
                     "menuid":"autoCrop",
                     "menus":[] ,
                     "url":"autoCrop"
+                },
+                {
+                    "menuname":"简单识别",
+                    "icon":"",
+                    "menuid":"discern",
+                    "menus":[] ,
+                    "url":"discern"
                 }
             ]
         },

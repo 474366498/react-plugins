@@ -115,6 +115,7 @@
     "sass": "^1.62.1",
     "sass-loader": "^13.3.2",
     "stylus": "^0.59.0",
+    "tesseract.js": "^4.1.2",
     "three": "^0.155.0",
     "tinymce": "^5.10.7",
     "wangeditor": "^4.7.12",

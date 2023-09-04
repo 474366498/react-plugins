@@ -1,8 +1,10 @@
 
 
+import AutoCrop from "../file/AutoCrop"
+
 function New() {
   return (
-    <div> new </div>
+    <div> new <AutoCrop />  </div>
   )
 }
 

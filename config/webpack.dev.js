@@ -202,6 +202,10 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     proxy: {
+      '/localhost': {
+        target: 'http://192.168.2.100:5222',
+        changeOrigin: true,
+      },
       '/dss0': {
         target: 'https://dss0.bdstatic.com/',
         changeOrigin: true,

@@ -10,6 +10,7 @@ import FileView from './file/view'
 import FilePrint from './file/print'
 import ImgEdit from './file/imgEdit'
 import AutoCrop from './file/AutoCrop'
+import ImageDiscern from './file/discern'
 
 
 import MultiMedia from './media/multimedia'
@@ -44,6 +45,7 @@ export const pageMap = new Map([
   ['filePrint', <FilePrint />],
   ['imgEdit', <ImgEdit />],
   ['autoCrop', <AutoCrop />],
+  ['discern', <ImageDiscern />],
 
   ['multimedia', <MultiMedia />],
   ['useMusicPlayer', <MusicPlayer />],

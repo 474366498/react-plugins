@@ -15,6 +15,7 @@ export const routes = [
         element: lazyLoad(lazy(() => import('../components/tab'))),
         children: [
           { path: 'home', element: lazyLoad(lazy(() => import('../page/home'))) },
+          // { path: 'test', element: lazyLoad(lazy(() => import('../page/file/autoCrop/index.jsx'))) },
           { path: 'new', element: lazyLoad(lazy(() => import('../page/new'))) },
           { path: 'buriedPoint', element: lazyLoad(lazy(() => import('../page/base/buriedPoint'))) },
           { path: 'webWorker', element: lazyLoad(lazy(() => import('../page/base/webWorker'))) },
