@@ -28,7 +28,11 @@ export default function AutoCanvasPx() {
       let imgData = ctx.getImageData(0, 0, img.width, img.height).data 
       console.log(24, imgData, img.width, img.height, imgData.find((item, i) => item == 0 && i % 4 == 3))
       // createObserveCanvas(img.width,img.height,imgData)
+      for (let i = 5; i < 20; i++) {
+        computedImgAngle(img , imgData,192,i) 
+      }
       computedImgAngle(img , imgData) 
+
     //  computedImgData(img,imgData)
   }
   // 单文件转base64
@@ -108,20 +112,20 @@ export default function AutoCanvasPx() {
         break
       }
     }
-    console.log(93, index) 
+    // console.log(93, index) 
     let firstPos = {
       x: index % width ,
       y: Math.floor(index / width) 
     } 
-    console.log(95,firstPos)
+    // console.log(95,firstPos)
     
     const secondPos = findSecondPosition(imageData,width ,height , firstPos,part,color)
-    console.log(116, secondPos)
+    // console.log(116, secondPos)
     let a = Math.abs(firstPos.y - secondPos.y),
         c = Math.sqrt(Math.abs((firstPos.x ** 2 + firstPos.y ** 2) - (secondPos.x ** 2 + secondPos.y ** 2)))
     let sin = a / c
     let angle = firstPos.x < width / 2 ? - sin * 180 / Math.PI : sin * 180 / Math.PI 
-    console.log(120, sin , a , c ,angle )
+    console.log(120,copies,'~~~~~~~', sin , a , c ,angle )
     let newImageData = imageData.map(i=>i)
    
     console.log(105,4*index)

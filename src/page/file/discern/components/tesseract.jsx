@@ -50,7 +50,9 @@ export default function TesseractDiscern() {
      extractTextFromImageCn = async (image) => {
        const worker = await Tess.createWorker({
         //  langPath : 'https://github.com/tesseract-ocr/tessdata/raw/4.00/chi_sim.traineddata',
-         langPath :'./tesseract-lang',
+         langPath: './tesseract/lang', // 语言包路径 public 下
+        //  corePath: '',
+         workerPath:'./tesseract/js/dist/worker.min.js',    // web worker 路径 public 下
         logger : info => console.log(52,'cn',info)
        })
        console.log(worker)
@@ -71,6 +73,7 @@ export default function TesseractDiscern() {
         语言包要.gz 格式的gzip 文件格式 gzip 在win 10安装方法
       </a>
       <a href='https://www.linuxcool.com/gzip'>gzip 常用命令</a>
+      <strong style={{color:'red'}}>在网络不稳定或没网可能出现其它情况...</strong>
     </div> 
     <input type="file" accept="image/*" onChange={e=>onChange(e)} />
   </div>

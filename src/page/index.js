@@ -2,6 +2,7 @@ import BuriedPoint from './base/buriedPoint'
 import WebWorker from './base/webWorker'
 import Encrypt from './base/encrypt'
 import UserIcon from './base/userIcon'
+import CtrlCv from './base/ctrlCV'
 
 import FileUpload from './file/upload'
 import BigFile from './file/big'
@@ -37,6 +38,7 @@ export const pageMap = new Map([
   ['webWorker', <WebWorker />],
   ['encrypt', <Encrypt />],
   ['userIcon', <UserIcon />],
+  ['ctrlCV', <CtrlCv />],
 
   ['upload', <FileUpload />],
   ['bigFile', <BigFile />],
