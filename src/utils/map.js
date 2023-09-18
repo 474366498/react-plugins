@@ -101,13 +101,13 @@ export function loadBMapBranch(url) {
   })
 }
 
-// 加载腾讯地图
-export function loadQQMap() {
+// 加载腾讯地图 libraries库 {geometry:几何运算 , place : 关键字搜索 , convertor:坐标转换 , drawing:绘图 ,   visualization:热力图}
+export function loadQQMap(libraries = 'place , visualization') {
   return new Promise((resolve, reject) => {
     let script = document.createElement('script')
     script.id = 'TencentMap'
     script.type = 'text/javascript'
-    script.src = `http://map.qq.com/api/js?v=2.exp&callback=init&libraries=visualization&key=${QQ_MAP_KEY}`
+    script.src = `http://map.qq.com/api/js?v=2.exp&callback=init&libraries=${libraries}&key=${QQ_MAP_KEY}`
     document.head.appendChild(script)
     window.init = function (res) {
       console.log(113, res, window)
