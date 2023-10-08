@@ -90,8 +90,9 @@ function _WebWorker() {
 
   const myWorker = new Worker('./worker.js')
   return (
-    <section>
+    <section className='flex flex-dir-c flex-ai-c '>
       WebWorker
+      <a href="https://juejin.cn/post/7139718200177983524" target="_blank"> 掘金 ~ 一文彻底学会使用web worker </a>
       <Button.Group>
         <Button type='primary' onClick={onWebWorkerCode}> web~worker~code</Button>
         <Button type='primary' danger onClick={onWebWorkerPackage}>web~worker~package</Button>
