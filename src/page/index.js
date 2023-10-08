@@ -3,6 +3,7 @@ import WebWorker from './base/webWorker'
 import Encrypt from './base/encrypt'
 import UserIcon from './base/userIcon'
 import CtrlCv from './base/ctrlCV'
+import ScreenRecord from './base/record'
 
 import FileUpload from './file/upload'
 import BigFile from './file/big'
@@ -39,6 +40,7 @@ export const pageMap = new Map([
   ['encrypt', <Encrypt />],
   ['userIcon', <UserIcon />],
   ['ctrlCV', <CtrlCv />],
+  ['record', <ScreenRecord />],
 
   ['upload', <FileUpload />],
   ['bigFile', <BigFile />],

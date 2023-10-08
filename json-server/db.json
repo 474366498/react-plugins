@@ -49,6 +49,12 @@
                     "menuid":"ctrl" ,
                     "menus":[] ,
                     "url":"ctrlCV"
+                },
+                {
+                    "menuname":"屏幕录制",
+                    "icon":"",
+                    "menuid":"record" ,
+                    "url":"record"
                 }
             ]
         },
