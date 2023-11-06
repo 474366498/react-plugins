@@ -1,5 +1,6 @@
 import BuriedPoint from './base/buriedPoint'
 import WebWorker from './base/webWorker'
+import CountTo from './base/countTo'
 import Encrypt from './base/encrypt'
 import UserIcon from './base/userIcon'
 import CtrlCv from './base/ctrlCV'
@@ -37,6 +38,7 @@ import WebLive from './other/webLive'
 export const pageMap = new Map([
   ['buriedPoint', <BuriedPoint />],
   ['webWorker', <WebWorker />],
+  ['countTo', <CountTo />],
   ['encrypt', <Encrypt />],
   ['userIcon', <UserIcon />],
   ['ctrlCV', <CtrlCv />],
